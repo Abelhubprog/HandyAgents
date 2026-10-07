@@ -4718,7 +4718,7 @@ JWT_ALGORITHM=HS256
 JWT_EXPIRATION_HOURS=24
 
 # Payment Configuration
-NEXT_PUBLIC_PAYSTACK_SECRET_KEY=your_paystack_secret_key_here
+PAYSTACK_SECRET_KEY=your_paystack_secret_key_here
 NEXT_PUBLIC_PAYSTACK_PUBLIC_KEY=your_paystack_public_key_here
 
 # Optional Integrations (for frontend)
@@ -4747,7 +4747,7 @@ TELEGRAM_BOT_TOKEN=your_telegram_bot_token
 SMTP_HOST=smtp.gmail.com
 SMTP_PORT=587
 SMTP_USERNAME=handywriterz@gmail.com
-SMTP_PASSWORD=d
+SMTP_PASSWORD=your_smtp_app_password_here
 
 # Frontend-specific Environment Variables
 NEXT_PUBLIC_API_URL=http://localhost:3000

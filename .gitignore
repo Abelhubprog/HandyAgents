@@ -213,3 +213,7 @@ cython_debug/
 #.idea/
 
 backend/.langgraph_api
+
+# Local env files (never commit real secrets)
+.env.local
+.env.*.local

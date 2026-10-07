@@ -24693,7 +24693,7 @@ JWT_ALGORITHM=HS256
 JWT_EXPIRATION_HOURS=24
 
 # Payment Configuration
-NEXT_PUBLIC_PAYSTACK_SECRET_KEY=your_paystack_secret_key_here
+PAYSTACK_SECRET_KEY=your_paystack_secret_key_here
 NEXT_PUBLIC_PAYSTACK_PUBLIC_KEY=your_paystack_public_key_here
 
 # Optional Integrations (for frontend)
@@ -24722,7 +24722,7 @@ TELEGRAM_BOT_TOKEN=your_telegram_bot_token
 SMTP_HOST=smtp.gmail.com
 SMTP_PORT=587
 SMTP_USERNAME=handywriterz@gmail.com
-SMTP_PASSWORD=d
+SMTP_PASSWORD=your_smtp_app_password_here
 
 # Frontend-specific Environment Variables
 NEXT_PUBLIC_API_URL=http://localhost:3000
@@ -83544,24 +83544,24 @@ FRONTEND_URL=http://localhost:3000
 ALLOWED_ORIGINS=http://localhost:3000,http://localhost:3001
 
 # Dynamic.xyz Authentication
-NEXT_PUBLIC_DYNAMIC_ENVIRONMENT_ID=0ceb833c-f73e-4ba9-ab3f-4b749a88340e
+NEXT_PUBLIC_DYNAMIC_ENVIRONMENT_ID=your_dynamic_environment_id_here
 DYNAMIC_PUBLIC_KEY=your_dynamic_public_key
 DYNAMIC_WEBHOOK_URL=your_webhook_url
-RAILWAY_TOKEN=9eb5157e-9e43-4125-9de5-9578d0bc34c2
+RAILWAY_TOKEN=your_railway_token_here
 # JWT Configuration
 JWT_SECRET_KEY=your_super_secret_jwt_key_here
 JWT_ALGORITHM=HS256
 JWT_EXPIRATION_HOURS=24
 
 # Payment Configuration
-NEXT_PUBLIC_PAYSTACK_SECRET_KEY=sk_test_be235bf0fc040e9bc9536280dd7babe082b52de5
-NEXT_PUBLIC_PAYSTACK_PUBLIC_KEY=pk_test_293cd2139ea086618bc469a1d7d1ff893c9c9dc4
+PAYSTACK_SECRET_KEY=your_paystack_secret_key_here
+NEXT_PUBLIC_PAYSTACK_PUBLIC_KEY=your_paystack_public_key_here
 
 # Optional Integrations (for frontend)
-NEXT_COINBASE_COMMERCE_API_KEY=0816037e-84d0-476b-aaa2-532c6e83ef9e
-NEXT_PUBLIC_COINBASE_COMMERCE_API_KEY=8YjDEg09DL6BMSdtJuhKeKBO2RRe9idB
-NEXT_COINBASE_COMMERCE_WEBHOOK_SECRET=ba082d16-41fb-4989-938e-92025ca00ffc
-NEXT_ONCHAINKIT_API_KEY=8YjDEg09DL6BMSdtJuhKeKBO2RRe9idB
+NEXT_COINBASE_COMMERCE_API_KEY=your_coinbase_commerce_api_key_here
+NEXT_PUBLIC_COINBASE_COMMERCE_API_KEY=your_coinbase_commerce_public_key_here
+NEXT_COINBASE_COMMERCE_WEBHOOK_SECRET=your_coinbase_commerce_webhook_secret_here
+NEXT_ONCHAINKIT_API_KEY=your_onchainkit_api_key_here
 
 # Blockchain Configuration
 BASE_RPC_URL=https://mainnet.base.org
@@ -83583,7 +83583,7 @@ TELEGRAM_BOT_TOKEN=your_telegram_bot_token
 SMTP_HOST=smtp.gmail.com
 SMTP_PORT=587
 SMTP_USERNAME=handywriterz@gmail.com
-SMTP_PASSWORD=d
+SMTP_PASSWORD=your_smtp_app_password_here
 
 # Frontend-specific Environment Variables
 NEXT_PUBLIC_API_URL=http://localhost:3000
